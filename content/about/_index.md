@@ -1,7 +1,7 @@
 ---
 title: ""
 date: 2025-08-02T12:43:35+02:00
-description: "Software engineer from Spain, living in Switzerland, building things that solve real problems"
+description: "Software engineer from Spain, living in Switzerland"
 
 showDate: false
 showAuthor: false

@@ -9,17 +9,13 @@ title = "msegoviadev"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  # logo = "img/logo.png"
-  # secondaryLogo = "img/secondary-logo.png"
-  # description = "My awesome website"
-  # copyright = "Copy, _right?_ :thinking_face:"
 
 [params.author]
   name = "msegoviadev"
   email = "hello@msegovia.dev"
   image = "img/msegoviadev_glitch.gif"
-  headline = "Senior Software Engineer in 🇨🇭aus 🇪🇸"
-  bio = "Code enthusiast building web apps and backend systems. Not replaced by AI (yet). Fueled by curiosity and good coffee."
+  headline = "Senior Software Engineer in 🇨🇭 aus 🇪🇸"
+  bio = "Software enthusiast. Not replaced by AI (yet). Fueled by curiosity and good coffee."
   links = [
     { email = "mailto:hello@msegovia.dev" },
     { x-twitter = "https://x.com/msegoviadev" },

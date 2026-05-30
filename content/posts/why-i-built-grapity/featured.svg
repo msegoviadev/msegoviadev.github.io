@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.0" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="400" fill="#0a0a0f"/>
+  
+  <!-- Grapity logo - properly centered -->
+  <!-- Original viewBox 0 0 32 32. Center is at 16,16. Scale 5x = 160x160. -->
+  <!-- To center at x=600: 600 - 80 = 520. To center at y=130: 130 - 80 = 50 -->
+  <g transform="translate(520, 50) scale(5)">
+    <path d="M7 24 L16 6 L25 24 L21 24 L16 14 L11 24 Z" fill="url(#grad)" stroke="none" filter="url(#glow)"/>
+    <circle cx="16" cy="24" r="2.5" fill="url(#grad)" filter="url(#glow)"/>
+  </g>
+  
+  <!-- Brand text - positioned well below logo -->
+  <!-- Logo bottom (circle) is at y=50 + 26.5*5 = 182.5. Text at y=240 gives ~58px gap -->
+  <text x="600" y="245" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="32" font-weight="700" fill="#e2e8f0" letter-spacing="4">GRAPITY</text>
+  
+  <!-- Subtle tagline -->
+  <text x="600" y="275" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="500" fill="#64748b" letter-spacing="3">API GOVERNANCE PLATFORM</text>
+  
+  <!-- Decorative dots -->
+  <circle cx="80" cy="80" r="2" fill="#6366f1" opacity="0.5"/>
+  <circle cx="1120" cy="320" r="2" fill="#06b6d4" opacity="0.5"/>
+  <circle cx="150" cy="350" r="1.5" fill="#6366f1" opacity="0.3"/>
+  <circle cx="1050" cy="60" r="1.5" fill="#06b6d4" opacity="0.3"/>
+</svg>

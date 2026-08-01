@@ -10,7 +10,7 @@ showHero = true
 heroStyle = "basic"
 +++
 
-[Grapity](https://grapity.dev) is an open-source registry for API contracts. Producers, the teams that own an API, push versioned specs to it. Consumers, the teams that depend on that API, pull those specs into their own repos. I just finished the example that walks through that whole loop: two folders, `examples/producer/` and `examples/consumer/`, each with one GitHub Actions workflow and a README that tells you exactly what to replace. No more guessing how the pieces fit together from scattered docs.
+[Grapity](https://grapity.dev) is an open-source registry for API contracts. Producers, the teams that own an API, push versioned specs to it. Consumers, the teams that depend on that API, pull those specs into their own repos. I just finished the example that walks through that whole loop: two folders, `examples/producer/` and `examples/consumer/`, each with one GitHub Actions workflow and a README that tells you exactly what to replace.
 
 Writing it forced me to justify why the example needs to exist at all. The honest answer: a spec can drift out from under a consumer with a change that looks harmless, an added optional field, a widened enum, and nothing in the process tells the consuming team it happened. Nobody did anything wrong. The spec changed, and nothing told anyone it had. If you want the broader argument for why that gap matters, I wrote about it separately in [why I built Grapity in the first place](/posts/why-i-built-grapity/).
 

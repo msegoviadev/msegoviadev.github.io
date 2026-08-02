@@ -1,39 +1,5 @@
 {
-  "permissions": {
-    "allow": [
-      "WebFetch(domain:www.linkedin.com)",
-      "Bash(hugo:*)",
-      "Bash(rm:*)",
-      "WebFetch(domain:localhost)",
-      "WebFetch(domain:localhost)",
-      "WebFetch(domain:docs.hugoblox.com)",
-      "Bash(find:*)",
-      "mcp__filesystem__list_directory",
-      "mcp__filesystem__read_multiple_files",
-      "mcp__filesystem__read_text_file",
-      "Bash(grep:*)",
-      "Bash(pkill:*)",
-      "mcp__filesystem__search_files",
-      "mcp__filesystem__edit_file",
-      "WebFetch(domain:themes.gohugo.io)",
-      "WebFetch(domain:blowfish.page)",
-      "Bash(git reset:*)",
-      "Bash(npx blowfish-tools new:*)",
-      "Bash(mkdir:*)",
-      "Bash(cp:*)",
-      "Bash(true)",
-      "Bash(mv:*)",
-      "Bash(ls:*)",
-      "mcp__filesystem__directory_tree",
-      "mcp__filesystem__create_directory",
-      "mcp__filesystem__write_file",
-      "Bash(curl:*)",
-      "WebFetch(domain:n9o.xyz)",
-      "WebFetch(domain:github.com)",
-      "WebFetch(domain:raw.githubusercontent.com)",
-      "WebFetch(domain:msegovia.dev)",
-      "Bash(fd -t d . content/)"
-    ],
-    "deny": []
+  "enabledPlugins": {
+    "claude-blog@agricidaniel-blog": true
   }
 }
